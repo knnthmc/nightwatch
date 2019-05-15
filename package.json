@@ -1,0 +1,32 @@
+{
+  "name": "iselect-nightwatch-boiler-plate",
+  "version": "1.0.0",
+  "description": "Boiler Plate for iSelect UI/UX Automation testing framework",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "nightwatch": "^1.0.19",
+    "nightwatch-allure-adapter": "^1.2.4",
+    "nightwatch-html-reporter": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nightwatch --config nightwatch.conf.js -e chrome",
+    "test:chrome": "nightwatch --config nightwatch.conf.js -e ",
+    "prettier": "./node_modules/.bin/prettier --config ./prettier.json --write \"nightwatch/**/*.js\"",
+    "nightwatch-html-reporter": "^2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iselect-services/nightwatch-boilerplate.git"
+  },
+  "author": "Tuan Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iselect-services/nightwatch-boilerplate/issues"
+  },
+  "homepage": "https://github.com/iselect-services/nightwatch-boilerplate#readme"
+}

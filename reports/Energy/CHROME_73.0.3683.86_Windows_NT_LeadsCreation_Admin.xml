@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Energy.LeadsCreation_Admin"
+    errors="1" failures="0" hostname="" id="" package="Energy" skipped="0"
+    tests="1" time="77.66" timestamp="">
+  
+    <testcase name="SP - 649 Create Person Account from Lead Conversion" classname="Energy.LeadsCreation_Admin" time="77.66" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

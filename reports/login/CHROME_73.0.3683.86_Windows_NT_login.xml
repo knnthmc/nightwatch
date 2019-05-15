@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="login.login"
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="1" time="50.68" timestamp="">
+  
+    <testcase name="Energy User Profiles" classname="login.login" time="50.68" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;tr:nth-child(1)&gt;td:nth-child(1)&gt;[class*=&#39;setupLink&#39;]&gt; to be visible for 30000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m">    at C:\salesforce\nightwatch_salesforce\nightwatch\tests\login\login.js:63:6
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Energy User Profiles (C:\salesforce\nightwatch_salesforce\nightwatch\tests\login\login.js:52:17)</failure>
+
+    <failure message="    at C:\salesforce\nightwatch_salesforce\nightwatch\tests\login\login.js:63:6">    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Energy User Profiles (C:\salesforce\nightwatch_salesforce\nightwatch\tests\login\login.js:52:17)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

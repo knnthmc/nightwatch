@@ -1,0 +1,69 @@
+{
+  "src_folders" : ["nightwatch/tests"],
+  "test-workers" :false,
+  "webdriver" : {
+    "start_process": true,
+    "server_path": "node_modules/.bin/chromedriver",
+    "log_path": "reports",
+    "port": 9515
+  },
+  "common_capabilities": {
+    "browserstack.user": "xxxx",
+    "browserstack.key": "xxxx"
+  },
+  "page_objects_path": "nightwatch/libs/pageobjects",
+  "output_folder": "reports",
+  "test_settings" : {
+    "default" : {
+     "desiredCapabilities" : {
+  "browserName" : "chrome",
+  "javascriptEnabled" : true,
+  "acceptSslCerts" : true,
+  "chromeOptions" : {
+    "args" : ["start-maximized","disable-popup-blocking","disable-extensions"]
+  }
+  
+}
+     
+    },
+    "SPQA" : {
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      },
+      "request_timeout_options": {
+        "timeout": 300000, 
+        "retry_attempts": 5 
+    },
+      "output_folder": "reports",
+      "launch_url" : "https://iselect--spqa.lightning.force.com",
+      "username"  : "'kenneth.cabaccang@iselect.com.au.spqa'",
+      "password" : "Meriales199x",
+      "skip_testcases_on_fail": false,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "./nightwatch/screenshots",
+        "on_failure": true,
+        "on_error": false,
+        "log_screenshot_data": true
+    }
+    },
+    "BAT" : {
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      },
+      "launch_url" : "https://test.salesforce.com/",
+      "username"  : "",
+      "password" : ""
+    },
+    "chrome": {
+      "desiredCapabilities": {
+        "browser": "chrome"
+      }
+    },
+    "firefox": {
+      "desiredCapabilities": {
+        "browser": "firefox"
+      }
+    }
+  }
+}

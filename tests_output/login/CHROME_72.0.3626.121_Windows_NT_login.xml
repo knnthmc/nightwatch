@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="login.login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="1" time="19.29" timestamp="">
+  
+    <testcase name="Login as Admin in Salesforce" classname="login.login" time="19.29" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

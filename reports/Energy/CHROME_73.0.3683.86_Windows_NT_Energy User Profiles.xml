@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Energy.Energy User Profiles"
+    errors="0" failures="0" hostname="" id="" package="Energy" skipped="0"
+    tests="1" time="163.1" timestamp="">
+  
+    <testcase name="Energy User Profiles" classname="Energy.Energy User Profiles" time="163.1" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
